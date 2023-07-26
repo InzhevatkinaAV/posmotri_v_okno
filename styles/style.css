@@ -36,3 +36,62 @@ ul,
 ol {
   list-style: none;
 }
+
+.page {
+  margin-top: 133px;
+  padding: 0 30px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.result {
+  width: 711px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  column-gap: 10px;
+}
+
+.result__video-container {
+  position: relative;
+}
+
+.result__video {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  object-position: center;
+}
+
+.search-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.content__list {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 298px;
+  width: 399px;
+  overflow: scroll;
+  row-gap: 30px;
+}
+
+.content__video-card {
+  display: flex;
+}
+
+.content__video-card-description-container {
+  width: 100%;
+}
+
+.content__video-card-thumbnail {
+  width: 194px;
+  object-fit: cover;
+}
