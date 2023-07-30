@@ -47,7 +47,6 @@ ol {
   align-items: end;
   column-gap: 30px;
   width: 1140px;
-  /* padding: 0 13px 0 30px; */
 }
 
 .result {
@@ -219,9 +218,8 @@ ol {
   flex-direction: column;
   height: 302px;
   overflow: auto;
-  row-gap: 26px;
+  row-gap: 31px;
   min-width: 416px; 
-  /* min-width: 399px;  */
 }
 
 .content__card-link:hover {
@@ -230,7 +228,6 @@ ol {
 
 .content__video-card {
   display: flex;
-  padding: 2px 0;
   transition: 1s all;
 }
 
