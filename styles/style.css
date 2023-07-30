@@ -46,7 +46,8 @@ ol {
   justify-content: center;
   align-items: end;
   column-gap: 30px;
-  padding: 0 13px 0 30px;
+  width: 1140px;
+  /* padding: 0 13px 0 30px; */
 }
 
 .result {
@@ -219,7 +220,8 @@ ol {
   height: 302px;
   overflow: auto;
   row-gap: 26px;
-  min-width: 399px;
+  min-width: 416px; 
+  /* min-width: 399px;  */
 }
 
 .content__card-link:hover {
