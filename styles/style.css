@@ -46,17 +46,17 @@ ol {
   justify-content: center;
   align-items: end;
   column-gap: 30px;
-  width: 1140px;
+  max-width: 1140px;
+  height: 534px;
 }
 
 .result {
   flex-direction: column;
-  margin-bottom: 8px;
 }
 
 .result__video-container {
   position: relative;
-  margin-bottom: 15px;
+  margin-bottom: 16px;
   min-width: 711px;
   height: 386px;
 }
@@ -205,7 +205,7 @@ ol {
   font-weight: 700;
   line-height: 94%;
   text-transform: uppercase;
-  margin-bottom: 23px;
+  margin-bottom: 20px;
 }
 
 .content__accent {
@@ -216,10 +216,10 @@ ol {
   position: relative;
   display: flex;
   flex-direction: column;
-  height: 302px;
+  height: 298px;
   overflow: auto;
-  row-gap: 31px;
-  min-width: 416px; 
+  row-gap: 30px;
+  min-width: 298px; 
 }
 
 .content__card-link:hover {
@@ -244,6 +244,7 @@ ol {
   color: #fff;
   text-decoration: none;
   margin: 2px;
+  padding: 2px;
 }
 
 .content__card-link:focus {
