@@ -43,11 +43,10 @@ ol {
 
 .content {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: end;
   column-gap: 30px;
   max-width: 1140px;
-  height: 534px;
 }
 
 .result {
@@ -219,7 +218,7 @@ ol {
   height: 298px;
   overflow: auto;
   row-gap: 30px;
-  min-width: 298px; 
+  min-width: 398px; 
 }
 
 .content__card-link:hover {
